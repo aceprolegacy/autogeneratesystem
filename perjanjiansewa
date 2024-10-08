@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AcePro Legacy Enterprise - Autogenerate Rental Agreement</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .hero {
+      background: url('your-image-url.jpg') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .cta-btn {
+      background-color: #ff5722;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+    .cta-btn:hover {
+      background-color: #e64a19;
+    }
+    .package {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      transition: box-shadow 0.3s ease;
+    }
+    .package:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .whatsapp-btn {
+      background-color: #25d366;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebd50;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Automate Your Rental Agreements</h1>
+      <p>Setup a system to autogenerate rental agreements sent directly to email in PDF format.</p>
+      <a href="#packages" class="cta-btn">Choose Your Package</a>
+    </div>
+  </section>
+
+  <!-- Packages Section -->
+  <section id="packages" class="my-5">
+    <div class="container text-center">
+      <h2>Our Packages</h2>
+      <p>Select the package that suits your needs and start automating your rental agreements.</p>
+      <div class="row">
+        <!-- Full Package -->
+        <div class="col-md-6">
+          <div class="package">
+            <h3>Full Package</h3>
+            <h4>RM150</h4>
+            <p>Includes:</p>
+            <ul class="list-unstyled">
+              <li>✔ Setup for autogenerate rental document system</li>
+              <li>✔ Free rental agreement template</li>
+              <li>✔ Access to database</li>
+              <li>✔ 1-year support from our team</li>
+            </ul>
+            <a href="https://bit.ly/autogenerateperjanjiansewa" class="cta-btn">Sign Up Now</a>
+          </div>
+        </div>
+        <!-- Basic Package -->
+        <div class="col-md-6">
+          <div class="package">
+            <h3>Basic Package</h3>
+            <h4>RM100</h4>
+            <p>Includes:</p>
+            <ul class="list-unstyled">
+              <li>✔ Setup for autogenerate rental document system</li>
+              <li>✘ No access to database</li>
+              <li>✔ 1-month support from our team</li>
+            </ul>
+            <a href="https://bit.ly/autogenerateperjanjiansewa" class="cta-btn">Sign Up Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section class="benefits-section bg-light py-5">
+    <div class="container text-center">
+      <h2>Why Choose AcePro Legacy Enterprise?</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Time-Saving Automation</h4>
+          <p>Generate rental agreements with just a few clicks, sent directly to your tenants via email in PDF format.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Customized Templates</h4>
+          <p>Receive a free, professional template for rental agreements that you can modify as needed.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Reliable Support</h4>
+          <p>Our team provides ongoing support to ensure your system runs smoothly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Get in Touch</h2>
+      <p class="text-center">Have any questions? Contact us via email or WhatsApp!</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="mailto:aceprolegacyenterprise@gmail.com" method="post" enctype="text/plain">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="text-center my-3">
+        <a href="https://wa.me/60193421913" class="whatsapp-btn">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 AcePro Legacy Enterprise. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
